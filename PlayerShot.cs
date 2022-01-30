@@ -37,5 +37,6 @@ public class PlayerShot : MonoBehaviour
 
             Destroy(clone, 10);
         }
+
     }
 }

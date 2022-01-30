@@ -1,0 +1,15 @@
+   private void OnTriggerEnter2D(Collider2D ohter) {
+       Destroy(ohter.gameObject);
+       StartCoroutine("HitAnimation");
+       //hitanimation을 불러온다. 
+   }
+   private IEnumerator HitAnimation(){
+       spriteRenderer.color=Color.red;
+       yield return new WaitForSeconds(0.1f);
+       spriteRenderer.color=Color.white;
+   }
+}
+3줄 의미
+StartCoroutine
+IEnumerator 
+yield return new WaitForSeconds(0.1f);

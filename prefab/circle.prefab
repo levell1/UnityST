@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5137125813332751442}
   - component: {fileID: 2035485194947266267}
   - component: {fileID: -4600864757736318214}
+  - component: {fileID: 4113111265758763499}
+  - component: {fileID: -1668905130701840839}
   m_Layer: 0
   m_Name: circle
   m_TagString: Untagged
@@ -96,3 +98,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &4113111265758763499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749315519933874549}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8cb870b4c9066145a1337d43f12c42c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &-1668905130701840839
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749315519933874549}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.295
