@@ -6,6 +6,10 @@ public class objectspawner : MonoBehaviour
 {
     [SerializeField]
     private GameObject boxprefab;
+
+    public float timediff;
+    private Rigidbody2D rigid2D;
+    float timer =0;
     private void Awake() {
         Quaternion rotation = Quaternion.Euler(0,0,45);
         Instantiate(boxprefab);
