@@ -15,7 +15,7 @@ public class Wall : MonoBehaviour
    }
    private IEnumerator HitAnimation(){
        spriteRenderer.color=Color.red;
-       yield return new WaitForSeconds(0.1f);
+       yield return new WaitForSeconds(0.3f);
        spriteRenderer.color=Color.white;
    }
 }
