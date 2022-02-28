@@ -5,6 +5,7 @@ using UnityEngine;
 public class playercontroller : MonoBehaviour
 {
     private Movement2D movement2D;
+    private Animator animator;
     private void Awake() {
         movement2D = GetComponent<Movement2D>();
     }
@@ -26,7 +27,6 @@ public class playercontroller : MonoBehaviour
         {
             movement2D.isLongJump = false;
         }
-
     }
 }
 
